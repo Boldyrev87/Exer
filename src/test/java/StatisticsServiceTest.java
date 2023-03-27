@@ -18,8 +18,8 @@ public class StatisticsServiceTest {
     void findMax_2() {
         StatisticsService service = new StatisticsService();
         long[] incomesInBillions = {4, 2, 7, 5, 1, 78, 8, 89, 158, 10, 15};
-        long expected=158;
+        long expected = 158;
         long actual = service.findMax(incomesInBillions);
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 }
